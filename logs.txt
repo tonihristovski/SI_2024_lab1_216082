@@ -1,0 +1,61 @@
+2024-03-27T11:06:29.966Z - info: [main] Received possible protocol arguments: 3
+2024-03-27T11:06:29.982Z - info: [main] Processing protocol url
+2024-03-27T11:06:29.982Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2024-03-27T11:06:30.676Z - info: [ui] [AppStore] loading 1 repositories from store
+2024-03-27T11:06:30.677Z - info: [ui] [AppStore] found account: tonihristovski (Toni Hristovski)
+2024-03-27T11:06:30.899Z - info: [ui] launching: 3.2.0 (Windows 10.0.22631)
+2024-03-27T11:06:30.904Z - info: [ui] execPath: 'C:\Users\hrist\AppData\Local\GitHubDesktop\app-3.2.0\GitHubDesktop.exe'
+2024-03-27T11:06:31.496Z - info: [ui] Stats reported.
+2024-03-27T11:06:31.502Z - warn: [ui] fetchAll: 'repos/tonihristovski/SI_2023_lab1_216082/pulls?state=open' returned a 404
+2024-03-27T11:06:31.530Z - info: [ui] Subscribed 'tonihristovski' to Alive channel
+2024-03-27T11:06:37.988Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/tonihristovski/SI_2024_lab1_216082.git - tonihristovski (has token)
+2024-03-27T11:06:40.730Z - info: [ui] Executing clone: git -c credential.helper= -c init.defaultBranch=master clone --recursive --progress -- https://github.com/tonihristovski/SI_2024_lab1_216082.git C:\Users\hrist\Desktop\SI_2023_lab1_216082\SI_2024_lab1_216082 (took 2.725s)
+2024-03-27T11:06:40.795Z - info: [ui] [AppStore] adding repository at C:\Users\hrist\Desktop\SI_2023_lab1_216082\SI_2024_lab1_216082 to store
+2024-03-27T11:07:03.055Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2024-03-27T11:07:14.453Z - info: [main] opening in browser: https://github.com/tonihristovski/SI_2024_lab1_216082
+2024-03-27T11:08:01.113Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2024-03-27T11:08:02.246Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.130s)
+2024-03-27T11:08:27.823Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.0s of which 0.0s paused, total 0.0s
+2024-03-27T11:08:35.702Z - info: [ui] [BranchPruner] Last prune took place 2 minutes ago - skipping
+2024-03-27T11:11:26.694Z - info: [ui] [Timing] Action 'create commit' for 'tonihristovski/SI_2024_lab1_216082' took 0.415s
+2024-03-27T11:12:55.643Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: SI_2024_lab1_216082 - tonihristovski (has token)
+2024-03-27T11:12:56.931Z - info: [ui] Executing push: git -c credential.helper= push origin master:master --progress (took 1.283s)
+2024-03-27T11:14:28.327Z - info: [ui] [Timing] Action 'create commit' for 'tonihristovski/SI_2024_lab1_216082' took 0.426s
+2024-03-27T11:14:29.829Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: SI_2024_lab1_216082 - tonihristovski (has token)
+2024-03-27T11:14:31.173Z - info: [ui] Executing push: git -c credential.helper= push origin master:master --progress (took 1.341s)
+2024-03-27T11:17:17.832Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: SI_2024_lab1_216082 - tonihristovski (has token)
+2024-03-27T11:17:18.273Z - info: [ui] [Timing] Action 'create branch' for 'tonihristovski/SI_2024_lab1_216082' took 0.655s
+2024-03-27T11:17:22.280Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: SI_2024_lab1_216082 - tonihristovski (has token)
+2024-03-27T11:17:22.715Z - info: [ui] [Timing] Action 'create branch' for 'tonihristovski/SI_2024_lab1_216082' took 0.648s
+2024-03-27T11:17:32.597Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: SI_2024_lab1_216082 - tonihristovski (has token)
+2024-03-27T11:17:33.035Z - info: [ui] [Timing] Action 'checkout branch from list' for 'tonihristovski/SI_2024_lab1_216082' took 0.436s
+2024-03-27T11:17:44.709Z - info: [ui] [BranchPruner] Last prune took place 11 minutes ago - skipping
+2024-03-27T11:18:04.530Z - info: [ui] [BranchPruner] Last prune took place 11 minutes ago - skipping
+2024-03-27T11:22:16.656Z - info: [ui] [Timing] Action 'create commit' for 'tonihristovski/SI_2024_lab1_216082' took 0.435s
+2024-03-27T11:22:30.253Z - info: [ui] [Timing] Action 'checkout branch from list' for 'tonihristovski/SI_2024_lab1_216082' took 0.000s
+2024-03-27T11:22:34.630Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: SI_2024_lab1_216082 - tonihristovski (has token)
+2024-03-27T11:22:35.049Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open 'C:\Users\hrist\OneDrive\Desktop\SI_2024_lab1_216082\.idea\.gitignore'
+2024-03-27T11:22:35.438Z - info: [ui] [Timing] Action 'stash and checkout' for 'tonihristovski/SI_2024_lab1_216082' took 0.809s
+2024-03-27T11:24:08.523Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.0s of which 0.0s paused, total 0.0s
+2024-03-27T11:24:35.665Z - info: [ui] [Timing] Action 'create commit' for 'tonihristovski/SI_2024_lab1_216082' took 0.416s
+2024-03-27T11:24:57.754Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: SI_2024_lab1_216082 - tonihristovski (has token)
+2024-03-27T11:24:58.246Z - info: [ui] [Timing] Action 'checkout branch from list' for 'tonihristovski/SI_2024_lab1_216082' took 0.493s
+2024-03-27T11:25:47.285Z - info: [ui] [Timing] Action 'checkout branch from list' for 'tonihristovski/SI_2024_lab1_216082' took 0.000s
+2024-03-27T11:26:01.146Z - info: [ui] [AppStore. _dropStashEntry] dropped stash with commit id d9519492d7e37f5ea348c6245d95f0309749ad1f
+2024-03-27T11:26:29.949Z - info: [ui] [Timing] Action 'create commit' for 'tonihristovski/SI_2024_lab1_216082' took 0.407s
+2024-03-27T11:26:37.343Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: SI_2024_lab1_216082 - tonihristovski (has token)
+2024-03-27T11:26:37.820Z - info: [ui] [Timing] Action 'checkout branch from list' for 'tonihristovski/SI_2024_lab1_216082' took 0.478s
+2024-03-27T11:27:11.030Z - info: [ui] [Timing] Action 'create commit' for 'tonihristovski/SI_2024_lab1_216082' took 0.423s
+2024-03-27T11:27:15.673Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: SI_2024_lab1_216082 - tonihristovski (has token)
+2024-03-27T11:27:17.030Z - info: [ui] Executing push: git -c credential.helper= push origin bug2 --set-upstream --progress (took 1.348s)
+2024-03-27T11:27:25.185Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: SI_2024_lab1_216082 - tonihristovski (has token)
+2024-03-27T11:27:25.666Z - info: [ui] [Timing] Action 'checkout branch from list' for 'tonihristovski/SI_2024_lab1_216082' took 0.481s
+2024-03-27T11:27:26.657Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: SI_2024_lab1_216082 - tonihristovski (has token)
+2024-03-27T11:27:28.376Z - info: [ui] Executing push: git -c credential.helper= push origin bug1 --set-upstream --progress (took 1.714s)
+2024-03-27T11:29:14.476Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: SI_2024_lab1_216082 - tonihristovski (has token)
+2024-03-27T11:29:14.935Z - info: [ui] [Timing] Action 'checkout branch from list' for 'tonihristovski/SI_2024_lab1_216082' took 0.460s
+2024-03-27T11:29:38.413Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: SI_2024_lab1_216082 - tonihristovski (has token)
+2024-03-27T11:29:39.881Z - info: [ui] Executing push: git -c credential.helper= push origin master:master --progress (took 1.466s)
+2024-03-27T11:30:46.968Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: SI_2024_lab1_216082 - tonihristovski (has token)
+2024-03-27T11:30:48.225Z - info: [ui] Executing push: git -c credential.helper= push origin master:master --progress (took 1.246s)
